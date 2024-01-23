@@ -1,0 +1,2 @@
+with open(output_file_path, 'w') as file:
+    file.write(df.head().to_string(index=False))
